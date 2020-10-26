@@ -15,7 +15,7 @@
 ---
 
 ## **WireFrame**
-![Photo1](wireframes\1.jpg)
+![Photo1](wireframes/1.jpg)
 ![photo2](wireframes/2.jpg)
 ![Photo3](wireframes/3.jpg)
 ![Photo4](wireframes/4.jpg)
