@@ -15,6 +15,7 @@
     --card-color: #006466d8;
     --card-text: #4D194D;
     --Header-font: 'Grenze Gotisch', Helvetica;
+    --accent-color: white;
 
 }
 
@@ -42,6 +43,7 @@ header, footer, nav {
 header {
     font-family: var(--Header-font);
     font-size: 50px;
+    text-shadow: 2px 1px 3px var(--accent-color);
     background-color: var(--header-color);
     color: var(--header-text);
 }
@@ -59,6 +61,25 @@ main {
 }
 
 footer {
+    max-height: 20px;
     background-color: var(--footer-color);
     color: var(--footer-text);
+}
+
+.card {
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.outline {
+    border: 2px solid var(--accent-color);
+}
+
+.flex-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
 }
