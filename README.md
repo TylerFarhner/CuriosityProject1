@@ -44,4 +44,4 @@
 ---
 ---
 # **Check it out here!**
-[Launch this bad boy](https://tylerfarhner.github.io/CuriosityProject1/)
+[Launch this bad boy](https://workitout.netlify.app/pages/arms.html)
