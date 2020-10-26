@@ -54,6 +54,10 @@ nav {
     color: var(--nav-text);
 }
 
+nav > a:hover {
+    box-shadow: 2px 2px 12px 2px white;
+}
+
 main {
     flex-grow: 1;
     background-color: var(--main-color);
@@ -67,19 +71,30 @@ footer {
 }
 
 .card {
-    width: 300px;
+    min-width: 300px;
     height: 150px;
     border-radius: 15px;
     margin: 15px;
+    border: 3px solid var(--nav-color);
+    box-shadow: 1px 1px 12px 1px var(--nav-color);
+    font-size: 28px;
+    
+}
+
+.card:hover {
+    box-shadow: 4px 4px 20px 5px white;
+}
+
+#collection {
+    flex-wrap: wrap;
 }
 
 .outline {
-    border: 2px solid var(--accent-color);
+    border: 5px solid var(--nav-color);
 }
 
 .flex-ctr {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: row; */
 }
