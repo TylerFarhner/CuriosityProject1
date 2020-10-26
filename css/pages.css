@@ -1,0 +1,64 @@
+/* Header Font */
+/* Grenze Gotisch */
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap');
+
+
+:root {
+    --header-color: #006466;
+    --header-text: #4D194D;
+    --nav-color: #4d194Dd4;
+    --nav-text: rgba(255, 255, 255, 0.8);
+    --main-color: #144552;
+    --main-text: rgba(255, 255, 255, 0.8);
+    --footer-color: #065A60;
+    --footer-text: rgba(128, 128, 128, 0.8);
+    --card-color: #006466d8;
+    --card-text: #4D194D;
+    --Header-font: 'Grenze Gotisch', Helvetica;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer, nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+}
+
+header {
+    font-family: var(--Header-font);
+    font-size: 50px;
+    background-color: var(--header-color);
+    color: var(--header-text);
+}
+
+nav {
+    height: 35px;
+    background-color: var(--nav-color);
+    color: var(--nav-text);
+}
+
+main {
+    flex-grow: 1;
+    background-color: var(--main-color);
+    color: var(--main-text)
+}
+
+footer {
+    background-color: var(--footer-color);
+    color: var(--footer-text);
+}
