@@ -41,3 +41,7 @@
 - 5 cards per page
 - Carousel for the cards
 - Responsive design showing one card on the page in mobile at a time, and three at a time on desktop.
+---
+---
+# **Check it out here!**
+[Launch this bad boy](https://tylerfarhner.github.io/CuriosityProject1/)
