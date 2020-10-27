@@ -23,8 +23,8 @@ function getData() {
         // return data and assign to global state variable (workoutInfo)
         // call render to visualize it to the dom
         console.log('Data: ', data)
+        workoutInfo = data;
         render();
-        let workoutInfo = data;
     }, function(error) {
         console.log('Error: ', error);
     })
@@ -35,10 +35,10 @@ function handleClick() {
 }
 
 function render() {
-    const htmlArray = workoutInfo.feed.map(workout => {
+    const htmlArray = workoutInfo.feed.entry.map(workout => {
         return`
         <article class="card flex-ctr">
-            <h3>${workout.entry[0].gsx$exercise.$t}</h3>
+            <h3>${workout.feed.entry.gsx$workout.$t}</h3>
         </article>
         `;
     });
