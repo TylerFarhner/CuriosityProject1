@@ -1,20 +1,20 @@
-/* Header Font */
-/* Grenze Gotisch */
-@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap');
+/* Header font */
+/* lobster */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
 :root {
-    --header-color: #006466;
-    --header-text: #4D194D;
+    --header-color: #4D1A9B;
+    --header-text: #fa5a04;
     --nav-color: #4d194Dd4;
     --nav-text: rgba(255, 255, 255, 0.8);
-    --main-color: #144552;
+    --main-color: black;
     --main-text: rgba(255, 255, 255, 0.8);
     --footer-color: #065A60;
     --footer-text: rgba(128, 128, 128, 0.8);
-    --card-color: white;
+    --card-color:#2f4858;
     --card-text: #4D194D;
-    --Header-font: 'Grenze Gotisch', Helvetica;
+    --Header-font: 'Lobster', Helvetica;
     --accent-color: white;
 
 }
