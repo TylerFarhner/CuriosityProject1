@@ -38,29 +38,14 @@ function handleClick() {
 }
 
 
-// // populates every single entry in feed
-// function render() {
-//     const htmlArray = workoutInfo.feed.entry.map(workout => {
-//         return`
-//         <article class="card flex-ctr">
-//             <h3>${workout.gsx$workout.$t}</h3>
-//         </article>
-//         `;
-//     });
-//     $collection.html(htmlArray)
-// }
-
-//we want only arms categories however
-
-function render () {
-    const htmlArray = workoutInfo.feed.entry.filter(workout => {
-        workout.gsx$category.$t === "arms"   }(
+// populates every single entry in feed
+function render() {
+    const htmlArray = workoutInfo.feed.entry.map(workout => {
         return`
         <article class="card flex-ctr">
-            <h3>${workout.gsx$workout.$t}</h3>
+            <h3>${workout.title.$t}</h3>
         </article>
-        `);   
+        `;
     });
     $collection.html(htmlArray)
-    console.log(htmlArray)
 }
