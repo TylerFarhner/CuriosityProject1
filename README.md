@@ -53,4 +53,4 @@ I started with creating all the HTML pages, then linking them and creating a sty
 ---
 ---
 # **Check it out here!**
-[Launch this bad boy](https://workitout.netlify.app/pages/arms.html)
+[Launch this bad boy](https://workitout.netlify.app/index.html)
