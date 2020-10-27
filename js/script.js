@@ -53,14 +53,7 @@ function handleClick() {
 //we want only arms categories however
 
 function render () {
-    const htmlArray = workoutInfo.feed.entry.filter(workout => {
-        workout.gsx$category.$t === "arms"   }(
-        return`
-        <article class="card flex-ctr">
-            <h3>${workout.gsx$workout.$t}</h3>
-        </article>
-        `);   
-    });
-    $collection.html(htmlArray)
-    console.log(htmlArray)
+    const hhtmlArray = workoutInfo.feed.entry.filter(function(workout) {
+        return 
+    })
 }
