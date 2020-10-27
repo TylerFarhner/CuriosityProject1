@@ -4,16 +4,16 @@
 
 
 :root {
-    --header-color: #4D1A9B;
-    --header-text: #fa5a04;
-    --nav-color: #4d194Dd4;
+    --header-color: #7798B1;
+    --header-text: black;
+    --nav-color: #7798B1;
     --nav-text: rgba(255, 255, 255, 0.8);
     --main-color: black;
     --main-text: rgba(255, 255, 255, 0.8);
     --footer-color: #065A60;
     --footer-text: rgba(128, 128, 128, 0.8);
     --card-color:#33658A;
-    --card-text: #4D194D;
+    --card-text: white;
     --Header-font: 'Lobster', Helvetica;
     --accent-color: white;
 
@@ -31,7 +31,7 @@ body {
     min-height: 100vh;
 }
 
-header, footer, nav {
+footer, nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,12 +41,14 @@ header, footer, nav {
 }
 
 header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
     font-family: var(--Header-font);
     font-size: 50px;
     text-shadow: 2px 1px 3px var(--accent-color);
     background-color: var(--header-color);
     color: var(--header-text);
-    box-shadow: 1px 1px 10px 1px black;
 }
 
 nav {

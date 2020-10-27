@@ -31,7 +31,7 @@ body {
     min-height: 100vh;
 }
 
-header, footer, nav {
+footer, nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,9 @@ header, footer, nav {
 }
 
 header {
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: var(--Header-font);
     font-size: 30px;
     text-shadow: 2px 1px 3px var(--accent-color);
@@ -136,6 +138,6 @@ a {
 
 a:hover {
     color: rgba(255, 255, 255, 0.582);
-    font-size: 200%;
+    font-size: 120%;
     text-decoration: none;
 }

@@ -1,20 +1,20 @@
-/* Header Font */
-/* Grenze Gotisch */
-@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap');
+/* Header font */
+/* lobster */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
 :root {
-    --header-color: #006466;
-    --header-text: #4D194D;
-    --nav-color: #4d194Dd4;
+    --header-color: #8EE8EA;
+    --header-text:black;
+    --nav-color: #8EE8EA;
     --nav-text: rgba(255, 255, 255, 0.8);
     --main-color: #144552;
     --main-text: rgba(255, 255, 255, 0.8);
     --footer-color: #065A60;
     --footer-text: rgba(128, 128, 128, 0.8);
-    --card-color: white;
-    --card-text: #4D194D;
-    --Header-font: 'Grenze Gotisch', Helvetica;
+    --card-color: #55dde0;
+    --card-text: white;
+    --Header-font: 'Lobster', Helvetica;
     --accent-color: white;
 
 }
@@ -31,7 +31,7 @@ body {
     min-height: 100vh;
 }
 
-header, footer, nav {
+footer, nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,12 +41,14 @@ header, footer, nav {
 }
 
 header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
     font-family: var(--Header-font);
     font-size: 50px;
     text-shadow: 2px 1px 3px var(--accent-color);
     background-color: var(--header-color);
     color: var(--header-text);
-    box-shadow: 1px 1px 10px 1px black;
 }
 
 nav {
