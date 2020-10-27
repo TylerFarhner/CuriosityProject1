@@ -23,10 +23,12 @@
 ---
 
 ## **Approach**
- I started off with the basic card layout idea from the PokeGallery site we had built in class. I knew I wanted to use a Google Sheet API to pull info from a spreadsheet I made as it would be easy to input my own exercises and descriptions without scouring the web for a workout API. Once I had solidified these two ideas I then began with a single page idea in mind (seen here);
+
+I started off with the basic card layout idea from the PokeGallery site we had built in class. I knew I wanted to use a Google Sheet API to pull info from a spreadsheet I made as it would be easy to input my own exercises and descriptions without scouring the web for a workout API. Once I had solidified these two ideas I then began with a single page idea in mind (seen here);
+
 ![original frame](wireframes/og.jpg)
 
- After discussing with a fellow classmate about their project I realized a multi-page approach wouldn't be all that hard to put together and began thinking of how I would do that. Since the cards wouldn't auto populate, rather id tell them what exercise to display respectively, I figured I would just need to create a style page for the home, and then a seperate one for each muscle group, with the same layout, only changing the exercises displayed per page. A few cross page links later and I have a working site!
+After discussing with a fellow classmate about their project I realized a multi-page approach wouldn't be all that hard to put together and began thinking of how I would do that. Since the cards wouldn't auto populate, rather id tell them what exercise to display respectively, I figured I would just need to create a style page for the home, and then a seperate one for each muscle group, with the same layout, only changing the exercises displayed per page. A few cross page links later and I have a working site!
 ---
 ---
 
