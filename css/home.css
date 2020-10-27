@@ -2,6 +2,9 @@
 /* lobster */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+/* card font */
+/* Permanent Marker */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
 
 :root {
     --header-color: #4D1A9B;
@@ -14,6 +17,7 @@
     --footer-text: rgba(128, 128, 128, 0.8);
     --card-color: white;
     --card-text: #4D194D;
+    --card-font: 'Permanent Marker', Helvetica;
     --Header-font: 'Lobster', Helvetica;
     --accent-color: white;
 
@@ -43,15 +47,12 @@ footer, nav {
 header {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 10px;
     font-family: var(--Header-font);
-    font-size: 30px;
+    font-size: 50px;
     text-shadow: 2px 1px 3px var(--accent-color);
     background-color: var(--header-color);
     color: var(--header-text);
-    box-shadow: 1px 1px 10px 1px black;
-    min-height: 20%;
-    padding-bottom: 12px;
 }
 
 h1 {
@@ -89,7 +90,7 @@ footer {
     margin: 15px;
     border: 3px solid var(--nav-color);
     box-shadow: 1px 1px 12px 1px var(--nav-color);
-    font-size: 28px;
+    font-size: 40px;
     color: var(--card-color);
 }
 
@@ -134,6 +135,7 @@ footer {
 a {
     color: white;
     text-decoration: none;
+    font-family: var(--card-font);
 }
 
 a:hover {
