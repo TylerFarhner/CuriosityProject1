@@ -6,6 +6,9 @@
 ---
 ---
 
+# **Check it out here!**
+[Launch this bad boy](https://workitout.netlify.app/index.html)
+
 ## **Technologies used**
 - HTML
 - Javascript
@@ -54,5 +57,3 @@ I started with creating all the HTML pages, then linking them and creating a sty
 - Responsive design showing one card on the page in mobile at a time, and three at a time on desktop.
 ---
 ---
-# **Check it out here!**
-[Launch this bad boy](https://workitout.netlify.app/index.html)
