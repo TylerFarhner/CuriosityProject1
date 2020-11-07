@@ -111,3 +111,15 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--card-font);
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 120%;
+    text-decoration: none;
+}
